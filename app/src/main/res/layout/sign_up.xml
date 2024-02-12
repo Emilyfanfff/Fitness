@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sign_up_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="42dp"
+            android:fontFamily="@font/poppins_light"
+            android:gravity="top"
+            android:text="@string/sign_up"
+            android:textAppearance="@style/login" />
+
+        <TextView
+            android:id="@+id/create_acco"
+            android:layout_width="112dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="20dp"
+            android:gravity="top"
+            android:text="@string/create_acco"
+            android:textAppearance="@style/create_acco" />
+
+        <EditText
+            android:id="@+id/signup_name"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_email"
+            android:fontFamily="@font/poppins_light"
+            android:hint="Name*"
+            android:paddingLeft="20dp"
+            android:paddingTop="3dp"
+            android:textAlignment="viewStart"
+            android:textColor="#908E8E" />
+
+        <EditText
+            android:id="@+id/signup_email"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_email"
+            android:fontFamily="@font/poppins_light"
+            android:hint="Email*"
+            android:paddingLeft="20dp"
+            android:paddingTop="3dp"
+            android:textAlignment="viewStart"
+            android:textColor="#908E8E" />
+
+        <EditText
+            android:id="@+id/signup_phone"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_email"
+            android:fontFamily="@font/poppins_light"
+            android:hint="Phone Number*"
+            android:paddingLeft="20dp"
+            android:paddingTop="3dp"
+            android:textAlignment="viewStart"
+            android:textColor="#908E8E" />
+
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_email"
+            android:fontFamily="@font/poppins_light"
+            android:hint="password*"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="3dp"
+            android:textAlignment="viewStart"
+            android:textColor="#908E8E" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_marginLeft="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show password"/>
+
+        <EditText
+            android:id="@+id/signup_address"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_email"
+            android:fontFamily="@font/poppins_light"
+            android:hint="Address*"
+            android:paddingLeft="20dp"
+            android:paddingTop="3dp"
+            android:textAlignment="viewStart"
+            android:textColor="#908E8E" />
+
+        <EditText
+            android:id="@+id/signup_favourite_sport"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_email"
+            android:fontFamily="@font/poppins_light"
+            android:hint="Favourite Sport*"
+            android:paddingLeft="20dp"
+            android:paddingTop="3dp"
+            android:textAlignment="viewStart"
+            android:textColor="#908E8E" />
+
+        <RadioGroup
+            android:id="@+id/genderRadioGroup"
+            android:layout_width="332dp"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp"
+            android:background="@drawable/login_email"
+            android:paddingLeft="20dp"
+            android:paddingTop="3dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender*"
+                android:textSize="18sp"
+                android:textColor="#908E8E"
+                android:fontFamily="@font/poppins_light"
+                android:padding="8dp"/>
+            <RadioButton
+                android:id="@+id/maleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#908E8E"
+                android:text="male" />
+
+            <RadioButton
+                android:id="@+id/femaleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#908E8E"
+                android:text="female" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/birthday_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="77dp"
+            android:background="@drawable/login_btn"
+            android:text="Select Birthday*" />
+
+        <Button
+            android:id="@+id/sign_up_btn"
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_btn"
+            android:text="Join us" />
+
+        <Button
+            android:id="@+id/clear_btn"
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_btn"
+            android:text="Clear" />
+
+        <TextView
+            android:id="@+id/have_already"
+            android:layout_width="300dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:gravity="top"
+            android:text="Do have already account ? Login"
+            android:textAppearance="@style/don_t_have_" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

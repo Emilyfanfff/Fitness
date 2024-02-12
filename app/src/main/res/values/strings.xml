@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fitness app</string>
+    <string name="login">
+        Login
+    </string>
+    <string name="create_acco">
+        Create Account
+    </string>
+    <string name="don_t_have_">
+        Don\'t have an account ?  Sign up
+    </string>
+    <string name="sign_up">
+        Sign up
+    </string>
+    <string name="data_home">
+        Set your data
+    </string>
+    <string name="facebook_app_id">6091244390930837</string>
+    <string name="facebook_client_token">b48a8872a7b49a7bc321b857b36b08c8</string>
+    <string name="mapbox_access_token"> pk.eyJ1Ijoic2h1Y2hhbmcwMjEwIiwiYSI6ImNsaDhrZ2VmNzA5cWczc2x4bWd1dWloYWYifQ.cWzjEb_A-qKL5EfRN22M9w</string>
+</resources>

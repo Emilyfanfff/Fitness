@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="42dp"
+            android:fontFamily="@font/poppins_light"
+            android:gravity="top"
+            android:text="@string/login"
+            android:textAppearance="@style/login" />
+
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_email"
+            android:fontFamily="@font/poppins_light"
+            android:hint="Email"
+            android:paddingLeft="20dp"
+            android:paddingTop="3dp"
+            android:textAlignment="viewStart"
+            android:textColor="#908E8E" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_email"
+            android:fontFamily="@font/poppins_light"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="3dp"
+            android:textAlignment="viewStart"
+            android:textColor="#908E8E" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_btn"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/don_t_have_"
+            android:layout_width="300dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/poppins_light"
+            android:gravity="top"
+            android:text="@string/don_t_have_"
+            android:textAppearance="@style/don_t_have_" />
+
+    </LinearLayout>
+
+</LinearLayout>

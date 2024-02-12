@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/welcome_max"
+        android:layout_width="202dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="30dp"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="welcome, "
+        android:textAppearance="@style/welcome_max" />
+
+    <TextView
+        android:id="@+id/find_your"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:gravity="top"
+        android:text="Find your"
+        android:textAppearance="@style/find_your" />
+
+    <TextView
+        android:id="@+id/activity"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:gravity="top"
+        android:text="activity"
+        android:textAppearance="@style/activity" />
+
+    <Button
+        android:id="@+id/videoButton"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:text="More Resource" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="380dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:scrollbars="vertical"
+        />
+
+</LinearLayout>
